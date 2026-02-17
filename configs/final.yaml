@@ -1,0 +1,13 @@
+model: hgb
+score_col: s_raw
+policy: topk_strict
+k_frac: 0.015
+cost_fp: 1
+cost_fn: 20
+
+pred_dir: data/derived
+valid_file: preds_valid_hgb.parquet
+test_file: preds_test_hgb.parquet
+
+output_flagged: data/derived/flagged_test_hgb_topk_strict_k015.parquet
+output_report: artifacts_eval/final_report.json
