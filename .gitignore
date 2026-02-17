@@ -3,8 +3,11 @@ __pycache__/
 *.pyc
 
 data/
-*.parquet
+mlruns/
 artifacts_eval/
+mlflow.db
+*.parquet
+.DS_Store
 
 mlruns/
 mlflow.db
