@@ -1,16 +1,18 @@
+# data & artifacts
+data/raw/
+data/db/
+data/derived/
+mlruns/
+mlflow.db
+artifacts_eval/
+*.parquet
+*.duckdb
+*.csv
+
+# mac
+.DS_Store
+
+# python
 .venv/
 __pycache__/
 *.pyc
-
-data/
-mlruns/
-artifacts_eval/
-mlflow.db
-*.parquet
-.DS_Store
-
-mlruns/
-mlflow.db
-
-.DS_Store
-.vscode/
