@@ -1,5 +1,15 @@
 # Risk-ML
 
+## How to download / build data
+
+This project expects a transaction dataset in `data/raw/` and builds a DuckDB feature table used for training.
+
+### 1) Create a virtual environment + install deps
+'''bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
 ## Goal
 Given a fixed review budget (fraction of transactions that can be reviewed), select cases to minimize expected cost:
 - False Positive cost = 1
