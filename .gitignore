@@ -1,18 +1,27 @@
-# data & artifacts
-data/raw/
-data/db/
-data/derived/
-mlruns/
-mlflow.db
-artifacts_eval/
-*.parquet
-*.duckdb
-*.csv
-
-# mac
+# OS / editor 
 .DS_Store
+.vscode/
+.idea/
 
-# python
+# --- Python ---
 .venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Data / artifacts (do NOT commit) ---
+data/raw/
+data/db/
+data/derived/
+artifacts_eval/
+mlruns/
+mlflow.db
+*.parquet
+
+# --- Logs ---
+*.log

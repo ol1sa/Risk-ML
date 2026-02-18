@@ -18,4 +18,4 @@ python scripts/evaluate.py --pred_dir "$PRED_DIR" \
 
 echo
 echo "=== PACKAGE FINAL ARTIFACTS ==="
-python scripts/package_final.py
+python scripts/final_package.py
