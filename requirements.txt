@@ -1,7 +1,8 @@
 duckdb==0.10.3
+setuptools<81
 pandas==2.2.2
-numpy==2.0.1
+numpy==1.26.4
 scikit-learn==1.5.1
 mlflow==2.14.3
 matplotlib==3.9.1
-pyarrow==16.1.0
+pyarrow>=14,<16
